@@ -1,0 +1,26 @@
+{
+    "name": "demo",
+    "dataset": "rot",
+    "params": [
+        {
+            "l": 2,
+            "num_images": -1,
+            "patch_size": [
+                7,
+                7
+            ],
+            "stride": 1,
+            "block_size": [
+                7,
+                7
+            ],
+            "block_stride": 3,
+            "method": "Fourier",
+            "fourier_basis_sel": "magnitude",
+            "clf": "svm",
+            "reduction_method": "exponent",
+            "feature_method": "histogram",
+            "quantization_method": "binarize"
+        }
+    ]
+}

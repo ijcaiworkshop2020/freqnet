@@ -1,0 +1,144 @@
+{
+    "name": "cifar_fourier2",
+    "dataset": "cifar",
+    "params": [
+        {
+            "skip": 1,
+            "l1": 2,
+            "patch_size1": [
+                5,
+                5
+            ],
+            "stride1": 1,
+            "method1": "Fourier",
+            "fourier_basis_sel1": "magnitude",
+            "l2": 8,
+            "patch_size2": [
+                5,
+                5
+            ],
+            "stride2": 1,
+            "method2": "Fourier",
+            "fourier_basis_sel2": "magnitude",
+            "reduction_method": "exponent",
+            "block_size": [
+                8,
+                8
+            ],
+            "block_stride": 4,
+            "feature_method": "spp_histogram",
+            "clf": "svm"
+        },
+        {
+            "skip": 1,
+
+            "l1": 4,
+            "patch_size1": [
+                5,
+                5
+            ],
+            "stride1": 1,
+            "method1": "Fourier",
+            "fourier_basis_sel1": "magnitude",
+            "l2": 8,
+            "patch_size2": [
+                5,
+                5
+            ],
+            "stride2": 1,
+            "method2": "Fourier",
+            "fourier_basis_sel2": "magnitude",
+            "reduction_method": "exponent",
+            "block_size": [
+                8,
+                8
+            ],
+            "block_stride": 4,
+            "feature_method": "spp_histogram",
+            "clf": "svm"
+        },
+        {
+            "skip": 1,
+
+            "l1": 6,
+            "patch_size1": [
+                5,
+                5
+            ],
+            "stride1": 1,
+            "method1": "Fourier",
+            "fourier_basis_sel1": "magnitude",
+            "l2": 8,
+            "patch_size2": [
+                5,
+                5
+            ],
+            "stride2": 1,
+            "method2": "Fourier",
+            "fourier_basis_sel2": "magnitude",
+            "reduction_method": "exponent",
+            "block_size": [
+                8,
+                8
+            ],
+            "block_stride": 4,
+            "feature_method": "spp_histogram",
+            "clf": "svm"
+        },
+        {
+            "skip": 1,
+
+            "l1": 8,
+            "patch_size1": [
+                5,
+                5
+            ],
+            "stride1": 1,
+            "method1": "Fourier",
+            "fourier_basis_sel1": "magnitude",
+            "l2": 8,
+            "patch_size2": [
+                5,
+                5
+            ],
+            "stride2": 1,
+            "method2": "Fourier",
+            "fourier_basis_sel2": "magnitude",
+            "reduction_method": "exponent",
+            "block_size": [
+                8,
+                8
+            ],
+            "block_stride": 4,
+            "feature_method": "spp_histogram",
+            "clf": "svm"
+        },
+        {
+            "l1": 40,
+            "patch_size1": [
+                5,
+                5
+            ],
+            "stride1": 1,
+            "method1": "Fourier",
+            "fourier_basis_sel1": "magnitude",
+            "l2": 8,
+            "patch_size2": [
+                5,
+                5
+            ],
+            "stride2": 1,
+            "method2": "Fourier",
+            "fourier_basis_sel2": "magnitude",
+            "reduction_method": "exponent",
+            "block_size": [
+                8,
+                8
+            ],
+            "block_stride": 4,
+            "feature_method": "spp_histogram",
+            "clf": "svm"
+        }
+        
+    ]
+}

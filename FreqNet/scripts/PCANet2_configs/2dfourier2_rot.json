@@ -1,0 +1,32 @@
+{
+    "name": "2d-fourier2-rot",
+    "dataset": "rot",
+    "params": [
+      {
+        "l1": 6,
+        "patch_size1": [
+          7,
+          7
+        ],
+        "stride1": 1,
+        "method1": "2D_Fourier",
+        "fourier_basis_sel1": "magnitude",
+        "l2": 8,
+        "patch_size2": [
+          7,
+          7
+        ],
+        "stride2": 1,
+        "method2": "2D_Fourier",
+        "fourier_basis_sel2": "magnitude",
+        "reduction_method": "exponent",
+        "block_size": [
+          4,
+          4
+        ],
+        "block_stride": 2,
+        "feature_method": "histogram",
+        "clf": "svm"
+      }
+    ]
+  }

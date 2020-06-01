@@ -1,0 +1,32 @@
+{
+    "name": "demo",
+    "dataset": "basic",
+    "params": [
+        {
+            "l1": 2,
+            "patch_size1": [
+                7,
+                7
+            ],
+            "stride1": 1,
+            "method1": "Fourier",
+            "fourier_basis_sel1": "magnitude",
+            "l2": 8,
+            "patch_size2": [
+                7,
+                7
+            ],
+            "stride2": 1,
+            "method2": "Fourier",
+            "fourier_basis_sel2": "magnitude",
+            "reduction_method": "exponent",
+            "block_size": [
+                7,
+                7
+            ],
+            "block_stride": 3,
+            "feature_method": "histogram",
+            "clf": "svm"
+        } 
+    ]
+}
